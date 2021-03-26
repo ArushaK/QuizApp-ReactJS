@@ -3,30 +3,30 @@ import React, { useState } from "react";
 function App() {
   const questions = [
     {
-      questionText: "What is the capital of France?",
+      questionText: "Linux was developed by?",
       answerOptions: [
-        { answerText: "New York", isCorrect: false },
-        { answerText: "London", isCorrect: false },
-        { answerText: "Paris", isCorrect: true },
-        { answerText: "Dublin", isCorrect: false },
+        { answerText: "Mike Matas", isCorrect: false },
+        { answerText: "Dennis Crowley", isCorrect: false },
+        { answerText: "Linus Torvalds", isCorrect: true },
+        { answerText: "Loren Brichter", isCorrect: false },
       ],
     },
     {
-      questionText: "Who is CEO of Tesla?",
+      questionText: "?",
       answerOptions: [
-        { answerText: "Jeff Bezos", isCorrect: false },
-        { answerText: "Elon Musk", isCorrect: true },
+        { answerText: "Elon Musk", isCorrect: false },
+        { answerText: "Jordan Walke", isCorrect: true },
         { answerText: "Bill Gates", isCorrect: false },
         { answerText: "Tony Stark", isCorrect: false },
       ],
     },
     {
-      questionText: "The iPhone was created by which company?",
+      questionText: "How many seconds are there in one minute?",
       answerOptions: [
-        { answerText: "Apple", isCorrect: true },
-        { answerText: "Intel", isCorrect: false },
-        { answerText: "Amazon", isCorrect: false },
-        { answerText: "Microsoft", isCorrect: false },
+        { answerText: "60", isCorrect: true },
+        { answerText: "30", isCorrect: false },
+        { answerText: "45", isCorrect: false },
+        { answerText: "90", isCorrect: false },
       ],
     },
     {
