@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background-color: #7cc6fe;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .app {
-  background-color: #252d4a;
+  background-color: black;
   width: 450px;
   min-height: 200px;
   height: min-content;
@@ -76,8 +76,8 @@ body {
 button {
   width: 100%;
   font-size: 16px;
-  color: #ffffff;
-  background-color: #252d4a;
+  color: black;
+  background-color: #fbff00;
   border-radius: 15px;
   display: flex;
   padding: 5px;
@@ -96,7 +96,7 @@ button {
 }
 
 button:hover {
-  background-color: #555e7d;
+  background-color: #ff6600;
 }
 
 button:focus {
